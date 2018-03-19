@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "transferLearningTest", "transferLearningTest\transferLearningTest.pyproj", "{0FD63FB5-A357-4BB1-94EB-6270C736913C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD63FB5-A357-4BB1-94EB-6270C736913C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD63FB5-A357-4BB1-94EB-6270C736913C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47D2D135-974A-4C3E-ABC6-9B8C23277317}
+	EndGlobalSection
+EndGlobal
