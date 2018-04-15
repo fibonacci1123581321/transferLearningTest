@@ -379,7 +379,7 @@ else:
 
     with tf.Session(graph=checkpoint_graph) as sess:
 
-        saver.restore(sess, checkpoint_path)
+        saver.restore(sess, ".\\resnet_v1_101_stanford_dogs")
 
         train_init_op = checkpoint_graph.get_operation_by_name("train_init_op")
         val_init_op = checkpoint_graph.get_operation_by_name("val_init_op")
