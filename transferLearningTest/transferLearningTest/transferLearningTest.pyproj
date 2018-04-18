@@ -22,6 +22,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="dnn_model.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="get_loss.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="optimizer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="prepare_data.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="transferLearningTest.py" />
   </ItemGroup>
   <ItemGroup>
